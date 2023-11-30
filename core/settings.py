@@ -76,6 +76,11 @@ TEMPLATES = [
 WSGI_APPLICATION = "core.wsgi.application"
 
 CORS_ORIGIN_ALLOW_ALL = True
+CORS_ALLOWED_ORIGINS = [
+    "http://0.0.0.0:8000"
+]
+CORS_ALLOW_CREDENTIALS = True
+
 
 
 # Database
